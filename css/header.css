@@ -1,0 +1,26 @@
+body{
+    background-color: #f2f2f3;
+}
+
+.header-container{
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+}
+.back-to-main{
+    width: 75px; height: 75px;
+    border-radius: 75px;
+    cursor: pointer;
+    color: #f2f2f2;
+    transition: .2s;
+    
+    background-image: url(../imgs/logo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.back-to-main:hover{
+    transform: rotate(-15deg) scale(1.05);
+    box-shadow: 8px 8px 13px rgba(0, 0, 0, .6);
+}
