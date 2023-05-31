@@ -14,6 +14,7 @@ http://todo.000.pe/
 
 # Developing
 Developed using HTML + CSS + JAVASCRIPT
+
 All data stored in local storage, page is dynamically generating via user interaction.
 
 # Screenshots
